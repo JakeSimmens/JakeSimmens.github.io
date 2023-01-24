@@ -1,1 +1,347 @@
-Welcome to may simple page
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jake Simmens - Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap&family=Roboto+Slab:wght@500" rel="stylesheet"> 
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <script src="https://kit.fontawesome.com/6b85eadd03.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="parallex"></div>
+
+    <section>
+        <nav class="navbar is-fixed-top" role="navigation">
+          <div class="navbar-brand">
+              <a class="navLogoBox" href="/">
+                <img class="navLogo" src="/images/logo-JSgrayRect.png" alt="Jake Simmens">
+              </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="menuOptions">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>  
+
+          <div class="navbar-menu" id="menuOptions">
+            <div class="navbar-end">
+                <a aria-label="About section shortcut" class="navbar-item has-text-centered close-burger-onclick" href="#about_section">About</a>
+                <a aria-label="Projects section shortcut" class="navbar-item has-text-centered close-burger-onclick" href="#project_section">Projects</a>
+                <!-- <a aria-label="Link to resume" class="navbar-item has-text-centered close-burger-onclick" href="https://github.com/JakeSimmens" target="_blank" rel="noopener noreferrer">Resume</a> -->
+                <a aria-label="Link to Github profile" class="navbar-item has-text-centered close-burger-onclick" href="https://github.com/JakeSimmens" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a aria-label="Contact section shortcut" class="navbar-item has-text-centered close-burger-onclick" href="#contact_section">Contact</a>
+            </div>
+          </div>
+        </nav>
+    </section>
+
+    <section>
+      <div class="hero is-primary is-medium">
+        <div class="hero-body">
+          <div class="columns is-vcentered">
+            <div class="column is-centered is-5 is-offset-1-desktop">
+              <div class="level">
+                <div class="level-item has-text-centered">
+                  <figure class="image">
+                    <img src="./images/business card photo.jpeg" alt="Smiling photo of Jake Simmens in a suit and purple tie" class="is-rounded hero-head">
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-4 is-6-tablet is-offset-1 is-offset-0-desktop">
+              <div class="content is-flex-direction-column">
+                <h1 class="hero-name has-text-light is-uppercase" aria-label="Jake Simmens"><span aria-hidden="true">J</span>ake <span aria-hidden="true">S</span>immens</h1>
+                <h4 class="hero-subtitle has-text-light">Building Node.js Express<br>backends to host your website.</h4>
+                <a href="#contact_section" class="">
+                  <span id="heroBtnParent">
+                    <span role="button" id="heroContactBtn">Contact Me</span>
+                  </span>
+                </a>
+                <div class="hero-contact-links">
+                  <a class="has-text-light" aria-label="LinkedIn profile for Jake" href="https://www.linkedin.com/in/jakesimmens/" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                      <i class="fab fa-linkedin logo"></i></a>
+                    </span>
+                  <a class="has-text-light" aria-label="Github profile for Jake" href="https://github.com/JakeSimmens" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                      <i class="fab fa-github-square"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-centered is-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a id="about_section"></a>
+    <section class="section">
+      <div class="columns is-centered">
+        <div class="column is-8 is-6-desktop has-text-justified has-text-centered-desktop">
+          <div id="about" class="has-text-light" aria-label="About Jake">
+            <p class="has-text-centered">People matter.</p>
+            <p>My computer science degree is complimented by a history of sales experience working directly with customers and filling their needs.</p>
+            <p>Another software engineer in the world with people skills is a good thing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a id="project_section"></a>
+    <section class="section projects" aria-label="Programming Projects">
+      <div class="columns is-tablet is-variable is-4 is-multiline is-centered">
+        <div class="column is-flex is-half-tablet is-one-third-desktop liftMe">
+          <article class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/bookAppHome.jpg" alt="Screenshot of jReads Book App home screen displaying book shelf with two rows of book covers.">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h3 class="title has-text-centered">jReads Books</h3>
+              <a href="https://jreads.jakesimmens.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+              <a href="https://github.com/JakeSimmens/book-shelf" target="_blank" rel="noopener noreferrer">Github</a>
+              <p class="content">Love reading? This JavaScript app uses Node/Express with RESTful architecture to store books of interest for each user along with comments for each book.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-flex is-half-tablet is-one-third-desktop liftMe">
+          <article class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/AWAuto.jpg" alt="Home page for auto mechanic shop">
+              </figure>
+            </div>
+              <div class="card-content">
+                <h3 class="title has-text-centered">A&W Automotive</h3>
+                <a href="https://awauto.jakesimmens.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                <a href="https://github.com/JakeSimmens/aw-auto" target="_blank" rel="noopener noreferrer">Github</a>
+                <p class="content">A website developed for a local automobile repair shop using RESTful architecture, Bootstrap, and Node/Express on the back-end.</p>
+              </div>
+          </article>
+        </div>
+
+        <div class="column is-flex is-half-tablet is-one-third-desktop liftMe">
+          <article class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/diceGame.png" alt="Screenshot of Risk Dice game showing total remaining attacking and defending armies along with the results of 3 attacking armies versus 2 defending armies dice roll">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h3 class="title has-text-centered">Risk Dice</h3>
+              <a href="https://dice.jakesimmens.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+              <a href="https://github.com/JakeSimmens/dice-game" target="_blank" rel="noopener noreferrer">Github</a>
+              <p class="content">Inspired by the dice battles in the board game Risk, this JavaScript app allows the users to play out the dice battles from the game.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Skills">
+      <div class="columns is-mobile">
+        <div class="column is-centered is-3-mobile is-2-tablet is-offset-2-mobile is-offset-3-tablet">
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/JavaScript_logo_245px.png" alt="JavaScript logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">JavaScript</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/node-js-logo.png" alt="Node.js logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">Node.js</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/expressjs-logo.png" alt="express.js logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">Express.js</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/mongodb-logo.png" alt="MongoDB logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">MongoDB</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-3-mobile is-2-tablet is-offset-2-mobile is-offset-2-tablet">
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/bootstrap-logo.png" alt="Bootstrap logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">Bootstrap</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/bulma-logo.png" alt="Bulma logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">Bulma</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/React_logo.png" alt="react logo">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">React</p>
+                </div>
+              </div>
+            </div>
+          </article> -->
+
+          <article class="media">
+            <div class="level">
+              <figure class="media-left">
+                <p class="image is-48x48" aria-hidden="true">
+                  <img src="images/html-css.png" alt="html and css logos">
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p class="skillName">HTML/CSS</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <a id="contact_section"></a>
+    <section class="section">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="box">
+              <h2 class="has-text-light has-text-centered label">Contact Me</h2>
+              <form action="/" method="POST">
+                <div class="field">
+                  <label for="contactName" class="label has-text-light">Name</label>
+                  <div class="control">
+                    <input name="contactName" type="text" class="input has-background-light">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="email" class="label has-text-light">Email</label>
+                  <div class="control">
+                    <input name="email" type="text" class="input has-background-light">
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="message" class="label has-text-light">Message</label>
+                  <div class="control"></div>
+                    <textarea name="message" class="textarea has-background-light has-fixed-size" cols="30" rows="10" class="textarea"><%=contactMessage%></textarea>
+                  </div>
+                </div>
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-success">Submit</button>
+                  </div>
+                  <div class="control">
+                    <input class="button is-light" type="reset" value="Reset">
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <footer class="has-text-centered">
+      <div class="container">
+         <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
+              <div class="contact-links">
+                <a class="has-text-light" aria-label="LinkedIn profile for Jake" href="https://www.linkedin.com/in/jakesimmens/" target="_blank" rel="noopener noreferrer">
+                  <span class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
+                </a>
+                <a class="has-text-light" aria-label="Github profile for Jake" href="https://github.com/JakeSimmens" target="_blank" rel="noopener noreferrer">
+                  <span class="icon">
+                    <i class="fab fa-github-square"></i>
+                  </span>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+  </html>

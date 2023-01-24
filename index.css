@@ -19,7 +19,7 @@ section {
     /* Background pattern from Toptal Subtle Patterns */
     height: 100%;
     width: 100%;
-    background-image: url("../images/wood_1.png");
+    background-image: url("./images/wood_1.png");
     background-repeat: repeat;
     position: fixed;
     z-index: -1;

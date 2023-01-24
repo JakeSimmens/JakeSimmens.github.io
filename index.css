@@ -1,0 +1,181 @@
+section {
+    max-width: 1215px;
+    margin: auto;
+}
+
+
+.navLogoBox {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+.navLogo {
+    padding-left: 15px;
+    height: 50px;
+}
+
+.parallex{
+    /* Background pattern from Toptal Subtle Patterns */
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/wood_1.png");
+    background-repeat: repeat;
+    position: fixed;
+    z-index: -1;
+}
+
+.notification {
+  margin-top: 52px;
+}
+
+.box {
+    background-color: rgba(68, 68, 68, 0.90);
+}
+
+
+
+.hero-body {
+    padding-top: 100px;
+    font-family: "Montserrat";
+}
+
+@keyframes beat {
+  from {
+    transform:scale(1);
+  }
+
+  to {
+    transform:scale(1.02);
+  }
+}
+
+.hero-head {
+    max-width: 300px;
+    animation: .7s linear .2s running beat;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+.hero-name, .content h1{
+    font-size: 2.4em;
+    font-family: "Roboto Slab";
+    margin: 0;
+    text-align: center;
+    height: 55px;
+    word-spacing: .12em;
+    letter-spacing: .05em;
+}
+
+.hero-name span {
+    font-size: 1.2em;
+}
+
+.hero-subtitle {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#heroBtnParent {
+    display: flex;
+    cursor: default;
+}
+
+#heroContactBtn {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #fAfAfA;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 9px;
+    border: solid 1px white;
+    border-radius: 5px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#heroContactBtn:hover {
+    color: #1ecbe1;
+}
+
+.hero-contact-links {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.hero-contact-links a span {
+        padding-bottom: 30px;
+        font-size: 2em;
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
+#about {
+    font-size: 1.25em;
+}
+
+#about p {
+    margin: 30px;
+}
+
+.projects .card {
+    /* background-color:  rgba(70, 77, 85, 0.90); */
+    font-family: "Roboto";
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.projects .card img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.projects .card h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.projects article .content {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.projects .card-content a {
+   text-align: center;
+   display: block;
+}
+
+@media (min-width: 769px){
+    .liftMe {
+        transition: margin-top .5s, margin-bottom .5s;
+    }
+
+    .liftMeUp {
+        margin-top: -7px;
+        margin-bottom: 7px;
+    }
+}
+
+
+
+.skillName {
+    color: #f5f5f5;
+    font-weight: 700;
+}
+
+.contact-links {
+    text-align: center;
+}
+
+.contact-links a span {
+        padding-bottom: 30px;
+        font-size: 2em;
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
